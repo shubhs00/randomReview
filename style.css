@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: skyblue;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.card{
+   width: 20rem;
+    border: 2px solid black;
+    margin: 2rem;
+    background-color: white;
+    text-align: center;
+    padding: 2.5rem;
+    
+   
+}
+
+img{
+  border-radius: 50%;
+  max-width: 100px;
+  margin: 1.4rem;
+ 
+}
+
+.ux{
+    color: skyblue;
+    margin: 10px;
+}
+
+button{
+    cursor: pointer;
+    padding: 5px;
+}
+
+.random{
+    display: grid;
+    justify-content: center;
+    margin-left: 8rem;
+    margin-top: 10px;
+}
